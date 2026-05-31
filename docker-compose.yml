@@ -1,7 +1,3 @@
-# fastCRWの自分用docker-composeファイルです。
-# https://github.com/us/crw/blob/main/docker-compose.yml を元に、ローカルビルドをghcrイメージに置き換えています。
-# crw、searxngのイメージは固定されているため、適宜コピー元を参照してバージョンアップしてください。
-
 services:
   crw:
     image: ghcr.io/us/crw:0.10.0
