@@ -43,7 +43,7 @@ docker compose --profile stealth up -d
 | `config.docker.toml` | CRW の設定ファイル。コンテナに read-only でマウントされます |
 | `config/searxng/settings.yml` | SearXNG の設定ファイル。コンテナに read-only でマウントされます |
 
-`config.docker.toml` はこのリポジトリに含まれていません。公式リポジトリの設定例を参考に作成してください。
+`config.docker.toml` は[公式リポジトリ](https://github.com/us/crw)からコピーしたものをこのリポジトリに含めています。適宜カスタマイズして使用してください。
 
 ## 環境変数
 
